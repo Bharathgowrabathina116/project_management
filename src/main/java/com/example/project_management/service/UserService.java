@@ -1,6 +1,5 @@
 package com.example.project_management.service;
 
-import com.example.project_management.dto.Task;
 import com.example.project_management.dto.Users;
 import com.example.project_management.repository.UsersRepository;
 import org.springframework.beans.factory.annotation.Autowired;
