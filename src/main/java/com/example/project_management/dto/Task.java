@@ -34,8 +34,8 @@ public class Task {
 	
 	@ManyToOne(fetch = FetchType.LAZY)
 	@JoinColumn(name = "user_id")
-	@JsonIgnore
-	private Users users;
+//	@JsonIgnore
+//	private Users users;
 
 	public long getId() {
 		return id;
@@ -53,13 +53,13 @@ public class Task {
 		this.task_name = task_name;
 	}
 
-	public Users getUsers() {
-		return users;
-	}
-
-	public void setUsers(Users users) {
-		this.users = users;
-	}
+//	public Users getUsers() {
+//		return users;
+//	}
+//
+//	public void setUsers(Users users) {
+//		this.users = users;
+//	}
 	
 	
 }
