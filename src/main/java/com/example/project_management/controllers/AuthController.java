@@ -45,6 +45,7 @@ public class AuthController {
 		return new ResponseEntity<>("User Logged in successfully", HttpStatus.OK);
 	}
 	
+	
 	@GetMapping("/users")
 	public List<Users> fetchallUser(){
 		return userService.getAllUsers();
